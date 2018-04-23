@@ -1,0 +1,68 @@
+.items {
+  border-style: solid;
+  border-width: 4px;
+  border-color: grey;
+  width: 400px;
+  height: 45px;
+
+  text-align: center;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+li {
+  border-style: solid;
+ 
+  border-width: 1px;
+  width: 400px;
+  height: 35px;
+  text-align: center;
+  margin: 6px;
+  padding: 5px;
+}
+ul{
+    clear: both;
+    list-style-type: none;
+    display: block;
+    width: 400px;
+    /* width: 60%; */
+    margin: 0 0% 0 11%;
+
+}
+span{
+    position: relative;
+    left: 36%;
+    cursor: pointer;
+
+}
+.list{
+    position: relative;
+    left: 14%;
+    border: 2px;
+}
+button{
+
+    position: relative;
+    right: 8%;
+    /* width: 70px; */
+    border: 1px;
+    /* color: green; */
+
+}
