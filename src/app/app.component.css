@@ -1,4 +1,4 @@
-.items {
+/* .items {
   border-style: solid;
   border-width: 4px;
   border-color: grey;
@@ -36,13 +36,13 @@ li {
   text-align: center;
   margin: 6px;
   padding: 5px;
-}
-ul{
+} */
+/* ul{
     clear: both;
     list-style-type: none;
     display: block;
     width: 400px;
-    /* width: 60%; */
+  
     margin: 0 0% 0 11%;
 
 }
@@ -61,8 +61,56 @@ button{
 
     position: relative;
     right: 8%;
-    /* width: 70px; */
+  
     border: 1px;
-    /* color: green; */
+   
 
+} */
+
+.container{
+    text-align: center;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 1px; 
+    background-color: beige;   
+}
+
+h1{
+    border-style: solid;
+    border-width: 1px;
+    margin: 35px;
+    padding: 14px;
+    background-color: palegoldenrod,
+}
+input{
+    width: 50%;
+    height: 45px;
+    text-align: center;
+    margin: 1px;
+    background-color: papayawhip;
+}
+button{
+    height: 45px;
+    margin: 1px;
+}
+li{
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    width: 69%;
+    position: relative;
+    width: 50%;
+    height: 40px;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    right: 55px;
+    background-color: burlywood;
+}
+
+span{
+    position: relative;
+    left: 143px;
 }
