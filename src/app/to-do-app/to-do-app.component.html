@@ -1,0 +1,21 @@
+
+ 
+    <div style="text-align:center" class="container">
+        <h1>A Simple to do app in angular 4 </h1>
+      
+        <div>
+          <input [(ngModel)]="newItem" type='text' placeholder="Enter item to be added" class="items">
+          <button (click)='addItem()'>Add Item</button><br>
+        </div>
+        <div class="list">
+          <ul>
+            <li *ngFor= "let i of items ; let ind = index ">
+             {{i}}
+              <span (click)='delItem(ind)'> X </span>
+            </li>
+      
+          </ul>
+        </div>
+      
+      </div>
+

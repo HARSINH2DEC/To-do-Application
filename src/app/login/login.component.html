@@ -1,9 +1,10 @@
-<input type='text' placeholder="enter item to be added">
-<button>Add Item</button><br>
-<ul>
-   <li>
-      First
-    <span> X </span>
-   </li>
+<div class="container">
+  <form [formGroup]="form" class="loginForm">
 
-</ul>
+   <div class="FormContainer">
+    <input type="text" name="firstname" placeholder="Email Id" formControlName="firstName"><br>
+    <input type="text" name="secondName" placeholder="Password" formControlName="lastName"><br>
+    <button class="submit" (click)="onsubmit(form.value)">SUBMIT</button>
+   </div>
+  </form>
+</div>
